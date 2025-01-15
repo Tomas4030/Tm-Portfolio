@@ -1,0 +1,27 @@
+.experiencias {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experiencias h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+table{
+    position: relative;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
