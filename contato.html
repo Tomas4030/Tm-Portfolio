@@ -26,64 +26,67 @@
     </header>
     <main>
         <div class="container">
-            <section id="contato">
-                <H2>Contato</H2>
+            <section class="contato">
+                <div class="container-texto">
+                    <H2>Contato</H2>
 
-                <p>caso queira entrar em contato comigo tem as seguintes alternativas</p>
+                    <p>Caso queira entrar em contato comigo tem as seguintes alternativas</p>
 
-                <ul>
-                    <li><a href="https://discord.com/login">Discord</a></li>
-                    <li><a href="https://pt.linkedin.com/">Linkedin</a></li>
-                    <a href="mailto:tomas_miguel@eticalgarve.com">Enviar Email</a>
-                </ul>
+                    <div class="icons">
+                        <a href="https://discord.com/login"><img src="Img/discord.png" alt="Discord">Discord</a>
+                        <a href="https://pt.linkedin.com/"><img src="Img/Linkedin.png" alt="Linkedin">Linkedin</a>
+                        <a href="mailto:tomas_miguel@eticalgarve.com"><img src="Img/email.png" alt="email">Enviar
+                            email</a>
+                    </div>
 
-                <form action="">
-                    <table border="1">
-                        <tr>
-                            <td>
-                                <label for="nome">Nome:</label>
-                                <input type="text" name="Nome" id="" placeholder="Escreva o seu nome">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="nome">Email:</label>
-                                <input type="email" name="Email" placeholder="Escreva o seu Email">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="Local">Local</label>
-                                <select name="Local" id="">
-                                    <option value="Porto">Porto</option>
-                                    <option value="lisboa">Lisboa</option>
-                                    <option value="Algarve">Algarve</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="genero">Género</label>
-                                <input type="radio" name="" id="" value="Masculino"> Masculino
-                                <input type="radio" name="" id="" value="Feminino"> Feminino
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="urgencia">Urgência</label>
-                                <input type="range" name="" id="">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="nome">Mensagem:</label>
-                                <textarea name="texte" id="" rows="4" cols="50"></textarea>
-                            </td>
-                        </tr>
-                    </table>
-                    <button type="submit">Submit</button>
-                    <button type="reset">Reset</button>
-                </form>
+                    <form>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" name="Nome" id="" placeholder="Escreva o seu nome" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="nome">Email:</label>
+                                    <input type="email" name="Email" placeholder="Escreva o seu Email" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="Local">Local</label>
+                                    <select name="Local" id="" required>
+                                        <option value="Porto">Porto</option>
+                                        <option value="lisboa">Lisboa</option>
+                                        <option value="Algarve">Algarve</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="genero">Género</label>
+                                    <input type="radio" name="genero" id="masculino" value="Masculino"> Masculino
+                                    <input type="radio" name="genero" id="feminino" value="Feminino"> Feminino
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="urgencia">Urgência</label>
+                                    <input type="range" name="" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="nome">Mensagem:</label>
+                                    <textarea name="texte" id="" rows="4" cols="50"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <button onclick="alert('Mensagem Enviada')" type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </div>
             </section>
         </div>
 
@@ -101,5 +104,6 @@
                 <a target="_blank" href="https://github.com/Tomas4030"><img src="Img/25231.png" class="footer-icon"></a>
             </div>
         </footer>
+        <script src="js/main.js"></script>
     </main>
 </body>

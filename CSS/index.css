@@ -43,7 +43,7 @@
     background-image: url(../Img/portfolio2.png);
     z-index: 999;
     background-repeat: no-repeat;
-    background-position: 25% bottom;
+    background-position: 5% bottom;
     background-color: #f6a53c;
 }
 
@@ -57,7 +57,7 @@
 .container-projeto {
     position: relative;
     bottom: 35px;
-    margin-left: 50%;
+    margin-left: 45%;
     color: white;
     font-size: 27px;
 }
