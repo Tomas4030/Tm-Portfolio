@@ -1,8 +1,7 @@
 .container-texto {
     width: 80%;
     margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
+    padding: 60px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -24,6 +23,7 @@
 .icons a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .icons a:hover {
@@ -31,7 +31,9 @@
 }
 
 form {
-    background-color: #fff;
+    position: relative;
+    top: 30px;
+    background-color: #fefdfe;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,26 +85,5 @@ button {
 
 button:hover {
     background-color: #0056b3;
-}
-
-
-/* Desktop */
-@media (max-width: 1920px) {
-    .container-texto {
-        width: 60%;
-    }
-
-    .icons {
-        gap: 60px;
-    }
-
-    .icons img {
-        width: 50px;
-        height: 50px;
-    }
-
-    form {
-        max-width: 700px;
-    }
 }
 
