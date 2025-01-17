@@ -1,9 +1,11 @@
-.container-texto {
+.container-texto-from {
     width: 80%;
     margin: 50px auto;
-    padding: 60px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.texto{
+    text-align: center;
 }
 
 .icons {
@@ -87,3 +89,18 @@ button:hover {
     background-color: #0056b3;
 }
 
+
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .icons p{
+        display: none;
+    }
+}
