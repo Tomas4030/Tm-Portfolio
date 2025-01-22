@@ -1,3 +1,11 @@
+.darkmode {
+    --teste1: #000000;
+    --teste2: #ffffff;
+    --teste3: #c5c5c5;
+    --teste5: #c5c5c5;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
@@ -20,9 +28,10 @@ header {
     align-items: center;
 }
 
+
 .navbar nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .navbar nav a:hover {
@@ -50,6 +59,8 @@ header {
 }
 
 footer {
+    position: relative;
+    margin-top: 50px;
     background-color: #ffffffad;
     color: #000000;
     padding: 20px 0;
@@ -140,20 +151,17 @@ footer {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
 
-    .footer-content {
-        flex-direction: column;
-        top: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    header {
+        width: 106%;
     }
 
-    .footer-center a {
-        font-size: 22px;
-        top: 30px;
-    }
-
-    .footer-icons {
-        gap: 20px;
+    footer {
+        width: 106%;
     }
 }
 

@@ -1,25 +1,24 @@
 /*Banner 1 */
-#portfolio-img-1 {
-    background-image: url(../Img/portfolio1.png);
-    z-index: 999;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-color: #f63c3c;
+.portfolio-img-1 img{
+    width: 650px;
+    height: 650px;
+    position: relative;
+    left: 60%;
+    top: 30px;
 }
 
 .portfolio {
     width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    height: 700px;
 }
 
-/*Sobre texto + button*/
 .texto {
-    margin-top: 35px;
+    position: relative;
+    bottom: 500px;
     margin-left: 50px;
     font-size: 27px;
     max-width: 50%;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
 }
 
@@ -44,7 +43,6 @@
     z-index: 999;
     background-repeat: no-repeat;
     background-position: 5% bottom;
-    background-color: #f6a53c;
 }
 
 .portfolio2 {
@@ -60,6 +58,9 @@
     margin-left: 45%;
     color: white;
     font-size: 27px;
+}
+.container-projeto h2 {
+   color: black;
 }
 
 .fotos-projetos img {
@@ -85,13 +86,55 @@
     box-shadow: 22px;
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {}
+@media (min-width: 1440px) and (max-width: 1920px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .portfolio-img-1 img{
+        position: relative;
+        top: 13px;
+    }
+    .portfolio {
+        height: 520px;
+    }
+
+    .texto {
+        position: relative;
+        bottom: 550px;
+    }
+    
+    
+    .container-projeto {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .fotos-projetos {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .fotos-projetos img {
+        position: relative;
+
+        width: 260px;
+        height: 210px;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .button-projetos {
+        position: relative;
+        top: 26px;
+    }
+}
 
 
-@media (min-width: 375px) and (max-width: 768px) {
-    #portfolio-img-1 {
-        background-image: none;
-        width: 100%;
+@media (min-width: 375px) and (max-width: 769px) {
+    .portfolio-img-1 img{
+        display: none;
     }
 
     .portfolio {
@@ -102,7 +145,7 @@
         max-width: 80%;
         font-size: 14px;
         position: relative;
-        bottom: 115px;
+        top: 15px;
         right: 13px;
     }
 
@@ -120,15 +163,14 @@
 
     .container-projeto {
         position: relative;
-        bottom: 100px;
+        bottom: 20px;
     }
 
     .container-projeto h2 {
         position: relative;
         right: 150px;
-        font-size: 32px;
+        font-size: 22px;
         width: 350px;
-        text-align: center;
     }
 
     .fotos-projetos {
@@ -146,12 +188,13 @@
         box-shadow: none;
     }
 
-    .button-projetos {
-        position: relative;
-        right: 30px;
-        top: 20px;
-        padding: 5px;
-        font-size: 23px;
-    }
 
+    .button-projetos { 
+        position: relative;
+        right: 20px;
+        top: 20px;
+        padding: 10px;
+        font-size: 14px;
+
+    }
 }
