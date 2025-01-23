@@ -1,5 +1,5 @@
 /*Banner 1 */
-.portfolio-img-1 img{
+.portfolio-img-1 img {
     width: 650px;
     height: 650px;
     position: relative;
@@ -59,8 +59,9 @@
     color: white;
     font-size: 27px;
 }
+
 .container-projeto h2 {
-   color: black;
+    color: black;
 }
 
 .fotos-projetos img {
@@ -86,15 +87,14 @@
     box-shadow: 22px;
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
-
-}
+@media (min-width: 1440px) and (max-width: 1920px) {}
 
 @media (min-width: 768px) and (max-width: 1439px) {
-    .portfolio-img-1 img{
+    .portfolio-img-1 img {
         position: relative;
         top: 13px;
     }
+
     .portfolio {
         height: 520px;
     }
@@ -103,8 +103,8 @@
         position: relative;
         bottom: 550px;
     }
-    
-    
+
+
     .container-projeto {
         position: relative;
         bottom: 20px;
@@ -133,7 +133,7 @@
 
 
 @media (min-width: 375px) and (max-width: 769px) {
-    .portfolio-img-1 img{
+    .portfolio-img-1 img {
         display: none;
     }
 
@@ -189,7 +189,7 @@
     }
 
 
-    .button-projetos { 
+    .button-projetos {
         position: relative;
         right: 20px;
         top: 20px;

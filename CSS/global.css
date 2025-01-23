@@ -13,6 +13,11 @@ header {
     box-shadow: 0px 0px 5px gray;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,7 +27,6 @@ header {
 
 
 .navbar nav a {
-    text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
@@ -102,8 +106,8 @@ footer {
 }
 
 .footer-icon {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
     transition: transform 0.3s;
 }
@@ -133,8 +137,6 @@ html::-webkit-scrollbar-thumb {
     background: #96938c;
     border-radius: 5rem;
 }
-
-
 
 @media (min-width: 1440px) and (max-width: 1920px) {
     .navbar {
